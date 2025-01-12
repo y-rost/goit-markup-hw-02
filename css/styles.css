@@ -22,7 +22,7 @@ ol {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-part {
+.header-logo .logo-part {
   color: #2e2f42;
 }
 
@@ -58,28 +58,41 @@ ol {
 .page-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.07143;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 .page-button {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #fff;
   background-color: #4d5ae5;
-  cursor: pointer;
 }
 
-.list-block {
-  display: none;
+.page-button:hover,
+.page-button:focus {
+  background-color: #404bbf;
 }
+
+/*.list-block {
+  display: none;
+}*/
+
 .list-subtitel,
 .team-subtitel,
 .portfolio-subtitel {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.team {
+  background-color: #f4f4fd;
 }
 
 .list-text,
@@ -96,8 +109,9 @@ ol {
 .portfolio-block {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -113,7 +127,7 @@ ol {
   background-color: #2e2f42;
 }
 
-.logo-part {
+.footer-logo .logo-part {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
