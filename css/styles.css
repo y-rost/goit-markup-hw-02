@@ -58,7 +58,7 @@ ol {
 .page-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -70,16 +70,13 @@ ol {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .page-button:hover,
 .page-button:focus {
   background-color: #404bbf;
 }
-
-/*.list-block {
-  display: none;
-}*/
 
 .list-subtitel,
 .team-subtitel,
@@ -113,6 +110,11 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.team-list .team-item {
+  background-color: #fff;
 }
 
 .footer-text {
@@ -130,7 +132,7 @@ ol {
 .footer-logo .logo-part {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
